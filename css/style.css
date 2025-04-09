@@ -101,3 +101,35 @@ body {
     height: auto;
     border-radius: 2px;
   }
+  .galeria {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e0f7fa;
+  }
+  
+  .galeria h2 {
+    margin-bottom: 20px;
+    color: #006d77;
+  }
+  
+  .galeria-fotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .galeria-fotos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .galeria-fotos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  }
+  
