@@ -55,6 +55,7 @@ body {
     margin-bottom: 20px;
     border-left: 5px solid #006d77;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
   }
   
   main article h2 {
@@ -105,6 +106,7 @@ body {
     padding: 40px 20px;
     text-align: center;
     background-color: #e0f7fa;
+    border-radius: 10px;
   }
   
   .galeria h2 {
@@ -118,6 +120,7 @@ body {
     gap: 15px;
     max-width: 1000px;
     margin: auto;
+    
   }
   
   .galeria-fotos img {
@@ -126,10 +129,33 @@ body {
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s;
+    
   }
   
   .galeria-fotos img:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    
   }
+
+
+.lista-colum{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  color: rgb(88, 85, 85);
+  margin-top: 5px;
+}
+.ul-pai-footer{
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  color: black;
+  font-weight: 700;
   
+}
+.nav-footer{
+  border-radius: 10px;
+  
+}
