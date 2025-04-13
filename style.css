@@ -175,3 +175,25 @@ a{
   text-decoration: none;
   color: black;
 }
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  color: #003049;
+}
+
+@media(max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: #83c5be;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
